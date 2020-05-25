@@ -1,0 +1,9 @@
+Example project for exposing a C++ library to python using boost.python
+
+For building the project run the script: build.sh (see build.sh -h for more info)
+
+Overview:
+	- C++ functions/classes are implemented in src/libtestlib (which is a shared library)
+	- the script src/tests/python/test.py is used to access the shared library
+	- all artefacts are installed in "installdir" (see build.sh for more info)
+	- after build and install, execute the script: "installdir/test.py"
